@@ -12,4 +12,12 @@ Amazon SQS 메시지 대기열 서비스를 Redshift, DynamoDB, RDS, EC2, ECS, L
 - [분산 애플리케이션 간에 메시지 전송](https://aws.amazon.com/ko/getting-started/hands-on/send-messages-distributed-applications/)
 - [팬아웃 이벤트 알림 전송](https://aws.amazon.com/ko/getting-started/hands-on/send-fanout-event-notifications/)
 
-## 
+## 2. 개발자 가이드
+- https://docs.aws.amazon.com/sns/latest/dg/welcome.html
+
+## 3. kafka와 차이점
+- Queue는 단일 목적을 가진 소비자를 위해 존재
+   - RabbitMQ와 유사
+- 여러 Queue에 Fanout해야 하는 경우 AWS SNS을 사용
+   - RabbitMQ의 Exchange와 유사
+
