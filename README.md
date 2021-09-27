@@ -20,4 +20,5 @@ Amazon SQS 메시지 대기열 서비스를 Redshift, DynamoDB, RDS, EC2, ECS, L
    - RabbitMQ와 유사
 - 여러 Queue에 Fanout해야 하는 경우 AWS SNS을 사용
    - RabbitMQ의 Exchange와 유사
-
+- 비용적으루 우위
+   - 거의 무시할 정도로 비용이 
